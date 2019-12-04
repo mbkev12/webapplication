@@ -6,11 +6,7 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element ref="systems"/>
-				<xsd:element ref="office"/>
-				<xsd:element ref="media"/>
-				<xsd:element ref="web"/>
-				<xsd:element ref="prog"/>
-				<xsd:element ref="gfx"/>
+				
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -23,45 +19,7 @@
 		</xsd:complexType>
 	</xsd:element>
 
-	<xsd:element name="office">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element ref="book" minOccurs="1" maxOccurs="unbounded"/>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
-
-	<xsd:element name="media">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element ref="book" minOccurs="1" maxOccurs="unbounded"/>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
-
-	<xsd:element name="web">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element ref="book" minOccurs="1" maxOccurs="unbounded"/>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
-
-	<xsd:element name="prog">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element ref="book" minOccurs="1" maxOccurs="unbounded"/>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
-
-	<xsd:element name="gfx">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element ref="book" minOccurs="1" maxOccurs="unbounded"/>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
+	
 	
 	<xsd:element name="book">
 		<xsd:complexType>

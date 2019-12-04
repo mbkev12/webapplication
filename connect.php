@@ -2,7 +2,7 @@
 <?php 
  
    $user = 'id11388980_kmwebdesignnew';
-   $pass = 'Coded1234@';
+   $pass = '';
    $db = 'db_id11388980_roothor';
    
    $conn = new mysqli('localhost', $user, $pass, $db) or die("Unable to connect");

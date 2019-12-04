@@ -1,9 +1,9 @@
 
 <?php 
  
-   $user = 'id11388980_kmwebdesignnew';
+   $user = '';
    $pass = '';
-   $db = 'db_id11388980_roothor';
+   $db = '';
    
    $conn = new mysqli('localhost', $user, $pass, $db) or die("Unable to connect");
    
